@@ -3,7 +3,6 @@ import keys from './keys.js';
 import GameScene from './scenes/GameScene.js';
 import PreloaderScene from './scenes/PreloaderScene.js';
 
-
 class Game extends Phaser.Game {
     constructor() {
         super(config);
