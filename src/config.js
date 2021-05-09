@@ -1,6 +1,4 @@
-import GameScene from './scenes/GameScene.js';
-
-const config = {
+export default {
     title: 'Slots Demo',
     version: '0.0.1',
 
@@ -9,8 +7,4 @@ const config = {
     height: 490,
     parent: 'container',
     backgroundColor: '#000000',
-
-    scene: [GameScene]
 };
-
-const game = new Phaser.Game(config);
