@@ -52,7 +52,7 @@ export default class PreloaderScene extends Phaser.Scene {
             percentText.setText(`${parseInt(value * 100)}%`);
             progressBar.clear();
             progressBox.fillStyle(0x222222, 1);
-            progressBar.fillRect(250, 280, 300 * value, 30);
+            progressBar.fillRect(width/2 - 150, height/2 - 20, 300 * value, 30);
         });
 
         // File Progress
@@ -77,5 +77,10 @@ export default class PreloaderScene extends Phaser.Scene {
         this.load.image(keys.IMAGES.LINE1, './images/line_1.png');
         this.load.image(keys.IMAGES.LINE4, './images/line_4.png');
         this.load.image(keys.IMAGES.LINE5, './images/line_5.png');
+        this.load.image(keys.IMAGES.SYM_A, './images/symbols/sym_a.png');
+        this.load.image(keys.IMAGES.SYM_B, './images/symbols/sym_b.png');
+        this.load.image(keys.IMAGES.SYM_C, './images/symbols/sym_c.png');
+        this.load.image(keys.IMAGES.SYM_D, './images/symbols/sym_d.png');
+        this.load.image(keys.IMAGES.SYM_E, './images/symbols/sym_e.png');
     }
 }
