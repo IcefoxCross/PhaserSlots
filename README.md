@@ -10,3 +10,7 @@
 	<li>Bugs y/o excepciones.</li>
 	<li>Tiempos de entrega.</li>
 </ul>
+
+<h2>Componentes</h2>
+<p>Phaser v3.54.0</p>
+<p>Para instalar dependencias, ejecutar desde consola en la carpeta raiz del proyecto <code>npm install</code></p>
