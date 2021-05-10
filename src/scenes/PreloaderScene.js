@@ -74,5 +74,8 @@ export default class PreloaderScene extends Phaser.Scene {
         this.load.image(keys.IMAGES.FRAME, './images/frame.png');
         this.load.image(keys.IMAGES.BUTTON, './images/btn_spin.png');
         this.load.image(keys.IMAGES.WINDOW, './images/prize_window.png');
+        this.load.image(keys.IMAGES.LINE1, './images/line_1.png');
+        this.load.image(keys.IMAGES.LINE4, './images/line_4.png');
+        this.load.image(keys.IMAGES.LINE5, './images/line_5.png');
     }
 }
