@@ -73,5 +73,6 @@ export default class PreloaderScene extends Phaser.Scene {
         // Assets loading
         this.load.image(keys.IMAGES.FRAME, './images/frame.png');
         this.load.image(keys.IMAGES.BUTTON, './images/btn_spin.png');
+        this.load.image(keys.IMAGES.WINDOW, './images/prize_window.png');
     }
 }

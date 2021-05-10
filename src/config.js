@@ -4,7 +4,7 @@ export default {
 
     type: Phaser.AUTO,
     width: 490,
-    height: 490,
+    height: 570,
     parent: 'container',
     backgroundColor: '#000000',
 };
