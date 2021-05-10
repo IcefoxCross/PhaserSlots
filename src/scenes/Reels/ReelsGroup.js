@@ -19,8 +19,9 @@ export default class ReelsGroup {
         reel_list.forEach((reel, index) => {
             this.reels.create(new Reel(this.scene, width * (0.42 + 0.58 * index), height * 0.42, reel, mask));
         });
-        /*this.reels.create(new Reel(this.scene, width * 0.4, height));
-        this.reels.create(new Reel(this.scene, width, height));
-        this.reels.create(new Reel(this.scene, width * 1.6, height));*/
+    }
+
+    updatePositions(points) {
+        this.reels.getChildren().forEach((reel, index) => reel.x.updatePosition(points[index]));
     }
 }

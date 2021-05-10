@@ -31,6 +31,7 @@ export default class GameScene extends Phaser.Scene {
         if (!this.scene.isSpinning) {
             //this.isSpinning = true;
             const spinResults = this.scene.wrapper.spin();
+            this.scene.reels.updatePositions(spinResults.stopPoints);
             this.scene.paylines.hidePaylines();
             this.scene.paylines.showPaylines(spinResults.prizes);
             this.scene.prizeWindow.updatePrize(spinResults.winnings);
